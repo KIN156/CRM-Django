@@ -23,5 +23,5 @@ Django CRM is an open-source Customer Relationship Management web application bu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/KIN156/django-crm.git
-   cd django-crm
+   git clone https://github.com/KIN156/CRM-Django/
+   cd CRM-Django
