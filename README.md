@@ -53,21 +53,23 @@ Access the application at http://localhost:8000/ and log in with the superuser c
 
 ## Screenshots
 
+# Login
+
 ![Alt text](./Screenshots/login.png)
 
-
+# Registeration
 
 ![Alt text](./Screenshots/register.png)
 
-
+# Home
 
 ![Alt text](./Screenshots/home.png)
 
-
+# Dashboard
 
 ![Alt text](./Screenshots/dashboard.png)
 
-
+# Update
 
 ![Alt text](./Screenshots/update.png)
 
