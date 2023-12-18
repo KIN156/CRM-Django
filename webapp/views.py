@@ -72,10 +72,10 @@ def create_record(request):
         form = CreateRecordForm(request.POST)
         if form.is_valid():
             form.save()
+            messages.success(request,"Record created successfully!")
 
             return redirect("dashboard")
     context = {"form" : form }
-    messages.success(request,"Record created successfully!")
     return render(request,'webapp/create-record.html',context=context)
 
 #update record
