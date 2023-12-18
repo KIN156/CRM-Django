@@ -50,10 +50,13 @@ Django CRM is an open-source Customer Relationship Management web application bu
 
 Access the application at http://localhost:8000/ and log in with the superuser credentials.
 
-Configuration
+## Configuration
 Update the SECRET_KEY in the config/settings.py file.
+
 Customize the DEBUG setting based on your environment (set to False in production).
+
 Configure database settings in config/settings.py.
 
-Contributing
+## Contributing
+
 Contributions are welcome!
