@@ -26,20 +26,24 @@ Django CRM is an open-source Customer Relationship Management web application bu
    git clone https://github.com/KIN156/CRM-Django/
    cd CRM-Django
 2. Create and activate a virtual environment (optional but recommended):
-
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate  # On Windows
 
 3. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-4. Apply database migrations:
+5. Apply database migrations:
+   ```bash
    python manage.py migrate
 
-5. Create a superuser account:
+7. Create a superuser account:
+   ```bash
    python manage.py createsuperuser
 
-6. Run the development server:
+9. Run the development server:
+    ```bash
    python manage.py runserver
 
