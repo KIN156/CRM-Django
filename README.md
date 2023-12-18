@@ -53,7 +53,16 @@ Access the application at http://localhost:8000/ and log in with the superuser c
 
 ## Screenshots
 
-![Alt text](./Screenshots/dashboard.png "dashboard")
+![Alt text](./Screenshots/login.png)
+
+![Alt text](./Screenshots/register.png)
+
+![Alt text](./Screenshots/home.png)
+
+![Alt text](./Screenshots/dashboard.png)
+
+![Alt text](./Screenshots/update.png)
+
 
 
 
