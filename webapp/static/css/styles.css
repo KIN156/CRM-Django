@@ -6,3 +6,11 @@
 .message-text{
     color: aliceblue;
 }
+
+
+.fixed-bottom {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+

@@ -1,18 +1,14 @@
 
 // Message/Notification timer
-var message_timeout = document.getElementById("message-timer");
+document.addEventListener("DOMContentLoaded", function() {
+    var message_timeout = document.getElementById("message-timer");
 
-setTimeout(function()
-
-{
-
-    message_timeout.style.display = "none";
-
-
-}, 5000);
-
-
-
+    setTimeout(function() {
+        if (message_timeout) {
+            message_timeout.style.display = "none";
+        }
+    }, 5000);
+});
 
 
 
